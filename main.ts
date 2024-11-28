@@ -131,3 +131,4 @@ scene.setBackgroundImage(img`
     `)
 game.showLongText("Game Will Now Start.", DialogLayout.Bottom)
 info.startCountdown(5)
+music.play(music.stringPlayable("B A B A F B G C5 ", 300), music.PlaybackMode.LoopingInBackground)
